@@ -31,7 +31,4 @@ print '3 backticks or'
 print 'indent 4 spaces'
 
 ```
-
-```
-This is test of editing in vscode
-```
+[Link](lab-report-1-week-2.html)
