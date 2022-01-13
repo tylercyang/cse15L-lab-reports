@@ -31,4 +31,4 @@ print '3 backticks or'
 print 'indent 4 spaces'
 
 ```
-[Link](lab-report-1-week-2.html)
+[Lab Report 1](lab-report-1-week-2.html)
