@@ -12,9 +12,9 @@
 
 > Blockquote
 
-*List
-*List
-*List
+* List
+* List
+* List
 
 1. One
 2. Two 
@@ -22,10 +22,12 @@
 
 ---
 
-'Inline Code'
+`Inline code`
 
-'''
-Code Block
+```
 
-'''
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
 
+```
