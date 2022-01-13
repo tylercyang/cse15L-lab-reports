@@ -6,9 +6,9 @@
 
 ## Heading 2
 
-[Link] (https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/capybara-cabernet-will-bullas.jpg)
+[https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/capybara-cabernet-will-bullas.jpg]
 
-![Image] (https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/capybara-cabernet-will-bullas.jpg)
+![https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/capybara-cabernet-will-bullas.jpg]
 
 > Blockquote
 
