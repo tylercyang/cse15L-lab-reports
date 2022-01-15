@@ -57,7 +57,11 @@ To log out of your ieng6 account, just hit *ctrl+d* or run the command `exit`.
 ---
 ## 4. Moving Files with `scp`
 
+A useful part about using ieng6 or working remotely in general is being able to copy files over from your cilent desktop to the remote computer. This is done by using the command `scp`.
 
+For example, lets say I have a file called `WhereAmI.java` on my computer that looks something like this...
+
+![Image]()
 
 ---
 ## 5. Setting an SSH Key
