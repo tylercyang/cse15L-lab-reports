@@ -112,3 +112,11 @@
 ![Image](big-gamer-move.png)
 
 * using the up-arrow on your keyboard in order to input the last command you ran
+
+>Once you have done all of this, one good exercise to try is to edit a file, then scp it into ieng6, and finally login to ieng6 and run the file. Count the number of keystrokes this takes (excluding the editing of the file) and try to get it under 10 keystrokes. 
+
+>Again, I used a file called `WhereAmI.java` to edit and scp into ieng6. My final command was something that looked like this...
+
+`scp WhereAmI.java cs15lwi22apb@ieng6.ucsd.edu:~/;ssh cs15lwi22apb@ieng6.ucsd.edu "javac WhereAmI.java"; ssh cs15wi22apb@ieng6.ucsd.edu "java WhereAmI"`
+
+>I first used the up arrow to copy over the command before the first semicolon, and then had some copy-pastes ready for my ieng6 account and java file. In total, this whole command took me about 17 keystrokes. (However, it may be possible to get it even lower!!). Combing commands into one line with semicolon and utilizing all the shortcuts saves an extreme amount of time during each run because over the course of a project you might need to continously ssh in and out of a remote computer. 
