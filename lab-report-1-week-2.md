@@ -6,7 +6,7 @@
 
 >Once installed, a window should open similar to this (there may be different colors):
 
-![Image](vscode-ss.png)
+![Image](Lab-Report-1-Photos\vscode-ss.png)
 
 ---
 ## 2. Remotely Connecting
@@ -16,7 +16,7 @@
 
 >If done correctly, a page similar to this should come up. For example, if you are trying to ssh into your cse15L ieng6 account, you would use the account `cs15lwi22apb`. However, your letters at the end of the account name may be different.
 
-![Image](ucsd-ets.png)
+![Image](Lab-Report-1-Photos\ucsd-ets.png)
 
 >Now, open a terminal in VScode with *ctrl+*. Then type in `ssh` with your preferred ieng6 account. It should look something like `ssh cs15Lwi22zz@ieng6.ucsd.edu` with the zz being your specific account. 
 
@@ -24,7 +24,7 @@
 
 >(note: when entering your password, nothing should show up, however if you enter your password correctly and hit *enter* you should be taken here)
 
-![Image](ssh-in.png)
+![Image](Lab-Report-1-Photos\ssh-in.png)
 
 >If this is your terminal, you have successfully logged into a computer on ieng6!
 
@@ -47,7 +47,7 @@
 
 >When I ran `ls -lat`, `ls -a`, and `ls -l` on my terminal, I got these results...
 
-![Image](random-commands.png)
+![Image](Lab-Report-1-Photos\random-commands.png)
 
 >To log out of your ieng6 account, just hit *ctrl+d* or run the command `exit`.
 
@@ -58,7 +58,7 @@
 
 >For example, lets say I have a file called `WhereAmI.java` on my computer that looks something like this...
 
-![Image](whereamifile.png)
+![Image](Lab-Report-1-Photos\whereamifile.png)
 
 >If I run this program on my own computer, I would get an output that prints my computer's operating system, username, etc. However, if I wanted to copy the file to ieng6 and then run it, I would first have to type `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/` 
 
@@ -66,7 +66,7 @@
 
 >Then, log back into ieng6 account and type `ls` to see your newly copied file. You can now run the same file on ieng6 with the output now printing ieng6's operating system, username, etc.
 
-![Image](running-an-scp-file.png)
+![Image](Lab-Report-1-Photos\running-an-scp-file.png)
 
 ---
 ## 5. Setting an SSH Key
@@ -77,7 +77,7 @@
 
 >To get this set up, first run `ssh-keygen -t ed25519` in your VScode terminal. It will first ask where you would want to place the key pair (hit *enter* to accept the default path or change the path to where you want to place your keys), then ask for a passphrase. In this scenario, we will not using a passphrase so hit *enter* twice until you see something like this...
 
-![Image](keygen.png)
+![Image](Lab-Report-1-Photos\keygen.png)
 
 >Now, if you are on a Windows operating system, open up the Start searchbar and type in `powershell`. Right-click the app and run it as administrator. Then type these commands in order...
 
@@ -94,7 +94,7 @@
 
 >If done correctly, you should now be able to ssh and scp into ieng6 without having to enter a password.
 
-![Image](ssh-without-password.png)
+![Image](Lab-Report-1-Photos\ssh-without-password.png)
 
 ---
 ## 6. Optimizing Remote Running
@@ -103,13 +103,13 @@
 
 * adding quotation marks at the end of an `ssh` command you want to run inside ieng6 to directly run the command and immediately log back out
 
-![Image](quotation-marks.png)
+![Image](Lab-Report-1-Photos\quotation-marks.png)
 
 * adding semicolons to run multiple commands on the same line
 
 >(e.g. `scp` a file called `WhereAmI.java` and running in ieng6 and then staying logged in would look like)
 
-![Image](big-gamer-move.png)
+![Image](Lab-Report-1-Photos\big-gamer-move.png)
 
 * using the up-arrow on your keyboard in order to input the last command you ran
 
